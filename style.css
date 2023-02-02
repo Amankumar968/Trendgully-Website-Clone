@@ -1,0 +1,1011 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.header
+{
+padding: 0 4.8rem;
+height:6rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:rgb(251, 249, 249);
+border-radius: 7px;
+
+}
+
+
+.header img{
+    padding: 6px 0px;
+    height: 48%;
+    margin-left: 2%;
+    margin-top: 0%;
+}
+
+.navbar-list {
+    display: flex;
+    padding: 30px 40px;
+    gap: 2.8rem;
+    list-style: none;
+    text-decoration: none;
+    margin-top: -6%;
+    border-radius: 70px red;
+    font-style: none;
+    
+}
+.navbar-list button{
+    padding: 7px 19px;
+    border:3px solid black;
+    border-radius: 12px;
+}
+.navbar-list button:hover{
+    background-color: #F26C4F;;
+}
+
+
+.maindiv{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    transform: translate(-60% ,-60%);
+    background-image: url(assets/asset\ 1.png);
+background-size: 100% 100%;
+animation: slider 9s infinite linear ;
+
+
+}
+
+@keyframes slider {
+0%{ background-image: url(assets/asset\ 1.png);}
+
+35%{ background-image: url(assets/asset\ 2.png);}
+
+50%{ background-image: url(assets/asset\ 4.png);}
+
+75%{ background-image: url(assets/asset\ 3.png);}
+    
+}
+
+
+.Search{
+    /* background-color: red; */
+    position: absolute;
+    top: 25%;
+left: 19%;
+
+}
+
+.Search input {
+    height: 30%;
+    width: 450%;
+    padding: 7px 0px;
+
+    
+}
+
+.button i{
+    position: absolute;
+    right: 20.3%;
+    top:25%;
+    font-size: large;
+    background-color: #F26C4F;;
+    padding: 7px 9px;
+}
+.option{
+    position: absolute;
+    top: 25%;
+    left:8%;
+    padding: 8px 9px;
+}
+
+.brandimg{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    
+}
+
+.music{
+
+    position: absolute;
+    top: 48%;
+    left:41%;
+}
+
+.music i{
+    font-size: 500%;
+    
+
+}
+.child{
+    position: absolute;
+    top: 109%;
+    width: 28%;
+    height: 28%;
+    padding: 0px 483px;
+    border: 7px;
+    border: 1px solid#F26C4F;
+    margin: 0px 0px;
+    background-color: white;
+}
+
+.child h2{
+    position: absolute;
+    left: 7%;
+    top: 30%;
+
+}
+
+.child p{
+position: absolute;
+left: 2%;
+top: 50%;
+
+}
+
+
+.row{
+    position: absolute;
+    top: 108%;
+    display: flex;
+   left: 46%;
+    margin: 10px 0px;
+
+}
+.col{
+    display: table-cell;
+    padding: 18px 9px;
+    width: 17%;
+    margin: 8px 8px;
+    text-align: center;
+    color: #F26C4F;;
+    vertical-align: middle;
+    border-right:  4px solide firebrick;
+
+}
+.col img{
+    width: 30%;
+    height: 30%;
+}
+
+.Future{
+    position: absolute;
+    top: 150%;
+    left: 5%;
+    font-size:small ;
+}
+
+.imgch1{
+    /* background-color: green; */
+    position: absolute;
+    left: 21%;
+    top: 198%;
+    width: 40%;
+    height: 45%;
+    margin-left: 67px;
+    border: 1px solid #F26C4F;
+    transform: translate(-60% ,-60%);
+    background-image: url(assets/asset\ 8.jpeg);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+
+
+}
+
+
+
+
+.imgch2{
+    /* background-color: green; */
+    position: absolute;
+    left: 77%;
+    top: 198%;
+    width: 40%;
+    height: 45%;
+    margin-left: 67px;
+    border: 1px solid #F26C4F;
+    transform: translate(-60% ,-60%);
+    background-image: url(assets/asset\ 12.jpeg);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+
+
+} 
+
+
+.trends{
+    position: absolute;
+    top: 220%;
+    left: 6%;
+    color: #F26C4F;
+}
+.print{
+    position: absolute;
+    top: 220%;
+    left: 66%;
+    color: #F26C4F;
+}
+.trends i{
+    position: absolute;
+    top: -10%;
+    left: 230%;
+    font-size: xx-large;
+    color: #F26C4F;
+
+}
+
+.print i{
+    position: absolute;
+    top: -10%;
+    left: 620%;
+    font-size: xx-large;
+    color: #F26C4F;
+}
+
+.toptrends{
+    position: absolute;
+    top: 240%;
+    height: 60%;
+    width: 100%;
+  background-color: aliceblue;
+}
+.toptrends h3{
+    top: 6%;
+position: absolute;
+    left: 3%;
+}
+.toptrends p{
+    position: absolute;
+    left: 3%;
+    top: 16%;
+}
+
+
+
+.parent{
+    position: absolute;
+    top: 260%;
+    gap: 5%;
+    left: 3%;
+    display: flex;
+
+}
+.parent i{
+    position: absolute;
+    top: -34.8%;
+    left: 8%;
+    font-size: x-large;
+    color: #F26C4F;
+
+}
+.box{
+padding: 50px 40px;
+border: 1px solid #F26C4F;
+   
+}
+.box{
+ height: 200px;
+ width: 350px;
+ background-image: url(assets/asset\ 15.jpeg);
+ background-size:cover ;
+background-repeat: no-repeat;
+}
+
+
+.Our{
+background-color:white;
+position: absolute;
+top: 320%;
+border: 16px solid white;
+padding: 20px 12px;
+border-radius: 10px;
+margin: 5px 30px;
+}
+.Our img{
+width: 50%;
+height: 90%;
+margin: 0px -11px;
+
+}
+.Our h3{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+
+.Our p{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+  margin: 35px 49px;
+}
+.our span{
+    width: 50%;
+    height: 50%;
+}
+
+.Our h2{
+    position: absolute;
+    top: -7%;
+    left: 2%;
+    font: bold;
+}
+
+.Our i{
+  position: relative;
+  left: 40%;
+ margin: 4px 8px;
+ color:#F26C4F ;
+}
+
+.Model{
+display: flex;
+ gap: 0%;
+ position:absolute;
+ top: 430%;
+
+
+ 
+ }
+  .model{
+     width: 410px;
+     height: 400px;
+     border-radius: 15px;
+     border: 12px solid white;
+  }
+
+  .model img{
+    align-items: center;
+    height: 300px;
+    width: 408px;
+    background-size:cover ;
+}
+
+.model h3{
+    font-size: small;
+}
+.model p{
+    font-size: small;
+}
+.model i{
+    color: #F26C4F;
+    
+}
+
+.Last{
+   position: absolute;
+    top: 500%;
+   /* padding: 200px 400px; */
+   margin: 10px 10px;
+   width: 98%;
+   height: 80%;
+    background-color: rgb(71, 67, 67);
+    border-radius: 17px ;
+}
+
+.Explore{
+    color: white;
+    padding: 80px 112px;
+    font-weight: bold;
+ 
+}
+
+.Explore p{
+    margin: 4px ;
+}
+
+
+.ContactUs{
+    color: white;
+position: absolute;
+top: 516%;
+left: 40%;
+    font-weight: bold;
+}
+.ContactUs a{
+    margin: 4px 5px;
+}
+
+
+
+.address{
+display: flex;
+
+}
+.Select{
+    position: absolute;
+    top: 516%;
+    left: 75%;
+}
+.Select select{
+    font-size: medium;
+    font-weight: 100x;
+    padding: 5px 3px;
+    border-radius: 3px;
+}
+
+.Follow{
+    position: absolute;
+    top: 526%;
+    color: white;
+    left: 75%;
+} 
+.Follow i{
+    margin: 4px 5px;
+
+}
+
+@media (max-width: 768px) { 
+    
+    
+    .maindiv {
+        width: 100%;
+        height: 312px;
+        position: absolute;
+        left: 60%;
+        top: 56%;
+        transform: translate(-60% ,-60%);
+        background-image: url(assets/asset\ 1.png);
+        background-size: 100% 100%;
+        animation: slider 9s infinite linear;
+    }
+    
+
+
+    .Search input {
+        height: 39%;
+        width: 136%;
+        /* position: absolute; */
+        padding: 8px 2px;
+        margin: 6px 82px;
+        /* left: 13%; */
+    }
+
+    .option {
+        position: absolute;
+        top: 26%;
+        left: 10.4%;
+        padding: 8px 9px;
+    }
+
+    .button i {
+        position: absolute;
+        right: 9%;
+        top: 26.6%;
+        font-size: large;
+        background-color: #F26C4F;
+        padding: 7px 9px;
+    }
+
+    .brandimg {
+        position: absolute;
+        top: 49%;
+        left: 34%;
+    }
+
+    .music i {
+        font-size: 375%;
+        margin: 38px 33px;
+        /* position: absolute; */
+    }
+    .child {
+        position: absolute;
+        top: 84%;
+        width: 25%;
+        height: 28%;
+        padding: 0px 27px;
+        border: 7px;
+        /* border: 1px solid#F26C4F; */
+        margin: 7px 3px;
+        background-color: white;
+    }
+
+    .child h2 {
+        position: absolute;
+        left: 2%;
+        top: 5%;
+    }
+    .row {
+        position: absolute;
+        top: 79%;
+        display: flex;
+        left: 26%;
+        margin: 10px 0px;
+    }
+
+    .Future {
+        position: absolute;
+        top: 117%;
+        left: 4%;
+        font-size: small;
+    }
+
+    .imgch1 {
+     /* background-color: green; */
+    position: absolute;
+    left: 21%;
+    top: 164%;
+    width: 40%;
+    border-radius: 19px;
+    height: 45%;
+    margin-left: 67px;
+    border: 2px solid #F26C4F;
+    transform: translate(-60% ,-60%);
+    background-image: url(assets/asset\ 8.jpeg);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+    
+
+    .imgch2 {
+        /* background-color: green; */
+        position: absolute;
+        left: 65%;
+        top: 164%;
+        width: 40%;
+        height: 45%;
+        border-radius: 19px;
+        margin-left: 67px;
+        border: 2px solid #F26C4F;
+        transform: translate(-60% ,-60%);
+        background-image: url(assets/asset\ 12.jpeg);
+        background-size: 100% 100%;
+        animation: slider 9s infinite linear;
+    }
+    .trends {
+        position: absolute;
+        top: 187%;
+        left: 7%;
+        font-size: x-large;
+        color: #F26C4F;
+    }
+
+    .trends i {
+        position: absolute;
+        top: -10%;
+        left: 108%;
+        font-size: xx-large;
+        color: #F26C4F;
+    }
+
+    .print {
+        position: absolute;
+        top: 186%;
+        left: 54%;
+        font-size: x-large;
+        color: #F26C4F;
+    }
+
+    .print i {
+        position: absolute;
+        top: -10.3%;
+        left: 223%;
+        font-size: xx-large;
+        color: #F26C4F;
+    }
+
+    .toptrends {
+        position: absolute;
+        top: 200%;
+        height: 74%;
+        width: 100%;
+        border-radius: 30px;
+        background-color: aliceblue;
+       
+    } 
+    
+    .box {
+        padding: 17px 467px;
+        border: 1px solid #F26C4F;
+        background-image: url(assets/asset\ 52.jpeg);
+        width: 55%;
+        height: 202px;
+        position: absolute;
+        left: 79%;
+        top: 28%;
+        transform: translate(-22% ,-84%);
+        background-size: 100% 100%;
+        animation: slider 9s infinite linear;
+    }
+    
+    @keyframes slider {
+    0%{ background-image: url(assets/asset\ 47.png);}
+    
+    35%{ background-image: url(assets/asset\ 49.png);}
+    
+    50%{ background-image: url(assets/asset\ 52.png);}
+    
+    75%{ background-image: url(assets/asset\ 3.png);}
+        
+    }
+
+    .parent i {
+        position: absolute;
+        top: 10.2%;
+        padding: 0px 0px;
+        margin: -270px 115px;
+        left: 43%;
+        font-size: xx-large;
+        color: #F26C4F;
+    }
+
+    .Our {
+        background-color: white;
+        position: absolute;
+        top: 280%;
+        border: 16px solid white;
+        padding: 20px 12px;
+        border-radius: 10px;
+        margin: 5px 30px;
+    }
+
+    .Our h2 {
+        position: absolute;
+        top: -7%;
+        left: 2%;
+        font-size: xx-large;
+        font: bold;
+    }
+
+    .Model {
+        width: 261px;
+    height: 400px;
+    position: absolute;
+    top: 370%;
+    border-radius: 15px;
+     /* border: 12px solid white; */
+    }
+
+    .model img {
+         height: 361px;
+         width: 215px; 
+         margin-right: 0px; 
+         background: no-repeat;
+    }
+    
+    .Last {
+        position: absolute;
+        top: 481%;
+        font-size: x-large;
+        /* padding: 200px 400px; */
+        margin: 10px 10px;
+        width: 98%;
+        height: 120%;
+        font-family: sans-serif;
+        background-color: rgb(71, 67, 67);
+        border-radius: 17px;
+    }
+
+    .Follow {
+        font-size: x-large;
+        position: absolute;
+        top: 562%;
+        color: white;
+        left: 31%;
+        font-family: sans-serif;
+    }
+
+
+    .Select {
+        position: absolute;
+    top: 553%;
+    font-size: x-large;
+    left: 33%;
+    font-family: sans-serif;
+    }
+
+   
+
+
+    .ContactUs {
+        color: white;
+        position: absolute;
+        top: 502%;
+        font-size: x-large;
+        left: 49%;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+
+ }
+
+ @media (max-width:468px) {
+  
+    .maindiv {
+        width: 100%;
+        height: 251px;
+        position: absolute;
+        left: 60%;
+        top: 50%;
+        transform: translate(-60% ,-60%);
+        background-image: url(assets/asset\ 1.png);
+        background-size: 100% 100%;
+        animation: slider 9s infinite linear;
+    }
+
+    .header img {
+        padding: 6px 0px;
+        height: 49%;
+        margin-left: -20%;
+        margin-top: 0%;
+    }
+
+    .option {
+        position: absolute;
+        top: 26%;
+        left: 2.4%;
+        padding: 5px 9px;
+    }
+    .Search {
+        /* background-color: red; */
+        position: absolute;
+        top: 24%;
+        left: 16%;
+    }
+
+   .Search input{
+    height: 15%;
+    width: 87%;
+    /* position: absolute; */
+    padding: 6px 2px;
+    margin: 9px 82px;
+    /* left: 13%; */
+}
+    
+.button i {
+    position: absolute;
+    right: 0%;
+    top: 25.6%;
+    font-size: large;
+    background-color: #F26C4F;
+    padding: 7px 9px;
+}
+
+.brandimg {
+    position: absolute;
+    top: 37%;
+    left: 38%;
+}
+
+.music {
+    position: absolute;
+    top: 31%;
+    left: 41%;
+}
+
+.child {
+    position: absolute;
+    top: 75%;
+    left: 21%;
+    width: 47%;
+    height: 15%;
+    padding: 0px 27px;
+    border: 7px;
+    /* border: 1px solid#F26C4F; */
+    margin: 7px 3px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    padding: 46px 8px;
+}
+.col {
+    padding: 4px 74px;
+}
+
+.Future {
+    position: absolute;
+    top: 117%;
+    left: 4%;
+    font-size: small;
+}
+
+.Future {
+    position: absolute;
+    top: 172%;
+    left: 8%;
+    font-size: small;
+}
+
+
+.imgch1 {
+    /* background-color: green; */ 
+    position: absolute;
+    left: 43%;
+    top: 235%;
+    width: 90%;
+    border-radius: 19px;
+    height: 57%;
+    margin-left: 67px;
+    border: 2px solid #F26C4F;
+    transform: translate(-60% ,-60%);
+    background-image: url(assets/asset\ 8.jpeg);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+
+
+.imgch2 {
+    /* background-color: green; */
+    position: absolute;
+    left: 43%;
+    top: 308%;
+    width: 90%;
+    height: 57%;
+    border-radius: 19px;
+    margin-left: 67px;
+    border: 2px solid #F26C4F;
+    transform: translate(-60% ,-60%);
+    background-image: url(assets/asset\ 12.jpeg);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+.trends {
+    position: absolute;
+    top: 263%;
+    left: 9%;
+    font-size: x-large;
+    color: #F26C4F;
+}
+
+.print {
+    position: absolute;
+    top: 335%;
+    left: 11%;
+    font-size: x-large;
+    color: #F26C4F;
+}
+.Model {
+    width: 261px;
+    height: 400px;
+    position: absolute;
+    top: 563%;
+    flex-direction: column;
+    border-radius: 15px;
+    /* border: 12px solid white; */
+}
+.model img{
+height: 342px;
+width: 396px;
+margin-right: 0px;
+background: no-repeat;
+}
+.parent {
+    position: absolute;
+    top: 430%;
+    gap: 5%;
+    left: 3%;
+    display: flex;
+}
+
+.Our h2 {
+    position: absolute;
+    top: -43%;
+    left: 15%;
+    font-size: xx-large;
+    font: bold;
+}
+
+.Our img {
+    width: 105%;
+    height: 80%;
+    margin: -136px -28px;
+}
+
+.Our h3 {
+    position: absolute;
+    left: -1%;
+    top: 66%;
+}
+
+.Our i {
+    position: relative;
+    left: 69%;
+    margin: 112px 6px;
+    color: #F26C4F;
+}
+
+.toptrends {
+    position: absolute;
+    top: 347%;
+    height: 74%;
+    width: 100%;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+
+.Our {
+    background-color: white;
+    position: absolute;
+    top: 465%;
+    border: 16px solid white;
+    padding: 20px 12px;
+    border-radius: 10px;
+    margin: 5px 30px;
+}
+.Our p {
+    position: absolute;
+    top: 69%;
+    left: -12%;
+    margin: 35px 49px;
+}
+
+.parent i {
+    position: absolute;
+    top: 25%;
+    padding: 0px 0px;
+    margin: -381px 115px;
+    left: 43%;
+    font-size: xx-large;
+    color: #F26C4F;
+}
+
+.box {
+    padding: 12px 371px;
+    border: 1px solid #F26C4F;
+    background-image: url(assets/asset\ 52.jpeg);
+    width: 61%;
+    height: 213px;
+    position: absolute;
+    left: 79%;
+    top: 13%;
+    border-radius: 19px;
+    transform: translate(-43% ,-124%);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+
+.Last {
+    position: absolute;
+    top: 837%;
+    font-size: x-large;
+    /* padding: 200px 400px; */
+    margin: 10px 10px;
+    width: 98%;
+    height: 150%;
+    font-family: sans-serif;
+    background-color: rgb(71, 67, 67);
+    border-radius: 17px;
+}
+
+.ContactUs {
+    color: white;
+    position: absolute;
+    top: 902%;
+    font-size: x-large;
+    left: 20%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Select {
+    position: absolute;
+    top:926%;
+    font-size: x-large;
+    left: 33%;
+    font-family: sans-serif;
+}
+
+.Follow {
+    font-size: x-large;
+    position: absolute;
+    top: 939%;
+    color: white;
+    left: 21%;
+    font-family: sans-serif;
+}
+ }
+
